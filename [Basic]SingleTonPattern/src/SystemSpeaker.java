@@ -8,7 +8,10 @@ public class SystemSpeaker {
         private static SystemSpeaker instance;
         private static int volum;
         
-        public static SystemSpeaker getInstance() {
+        // to get the instance by accessing the class, NOT new 
+        // if threads access getInstance method at the same time, there is the possibility to create many instances.  
+        // So must set "synchronized" or create the instance on the top.
+        public static synchronized SystemSpeaker getInstance() {
                 if (instance == null) {
                         System.out.println("Create instance");
                         instance = new SystemSpeaker();
