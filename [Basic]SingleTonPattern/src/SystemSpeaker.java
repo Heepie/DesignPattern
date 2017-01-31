@@ -18,11 +18,11 @@ public class SystemSpeaker {
                 return instance;
         }
 
-        public static int getVolum() {
+        public int getVolum() {
                 return volum;
         }
 
-        public static void setVolum(int volum) {
+        public void setVolum(int volum) {
                 SystemSpeaker.volum = volum;
         }
 }
