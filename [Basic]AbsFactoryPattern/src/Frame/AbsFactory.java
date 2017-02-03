@@ -1,11 +1,11 @@
 package Frame;
 
 public abstract class AbsFactory {
-        public abstract Body createBody();
-        public abstract Wheel createWheel();
+        public abstract void createBody(Body body);
+        public abstract void createWheel(Wheel wheel);
         
         public void assembleBicycle() {
-                createBody();
-                createWheel();
+                createBody()
+                createWheel
         }
 }
