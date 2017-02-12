@@ -1,11 +1,9 @@
 package com.heepie.facade;
 
-import com.heepie.facade.func.Func;
+import com.heepie.facade.filemaker.FileMaker;
 
 public class Main {
         public static void main(String[] args) {
-                Func func = new Func();
-                
-                func.process();
+                FileMaker.makeFile("gheepie@gmail.com", "Heepie");
         }
 }
