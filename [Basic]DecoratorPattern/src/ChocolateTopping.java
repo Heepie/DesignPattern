@@ -1,6 +1,6 @@
 import Frame.Cookie;
 
-public class ChocolateTopping extends AbsTopping {
+public class ChocolateTopping extends ToppingDecorator {
         public ChocolateTopping (Cookie cookie) {
                 super(cookie);
         }

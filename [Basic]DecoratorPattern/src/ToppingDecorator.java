@@ -1,9 +1,9 @@
 import Frame.Cookie;
 
-public abstract class AbsTopping implements Cookie {
+public abstract class ToppingDecorator implements Cookie {
         protected Cookie cookie;
         
-        public AbsTopping(Cookie cookie) {
+        public ToppingDecorator(Cookie cookie) {
                 this.cookie = cookie;
         }
         
