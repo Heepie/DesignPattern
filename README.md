@@ -17,6 +17,13 @@
 ####1) What is Strategy Pattern? (Keyword: Selection)
 The strategy pattern (also known as the policy pattern) is a behavioural software design pattern that enables **an algorithm's behavior to be selected at runtime**.
 
-####2) Background
+### 2. Adapter Pattern
+####1) What is Adapter Pattern? (Keyword: existing class, reuse)
+The adapter pattern is a software design pattern (also known as Wrapper, an alternative naming shared with the Decorator pattern) that allows the interface of **an existing class to be used as another interface**. It is often used to make existing classes work with others **without modifying their source code**.
 
-####3) Benefit
+### 3. Template Pattern
+####1) What is Template Pattern? (Keyword: skeleton, redefine certain steps)
+The template method pattern is a behavioral design pattern that defines the program skeleton of an algorithm in an operation, deferring some steps to subclasses. It lets one **redefine certain steps of an algorithm without changing the algorithm's structure**.
+
+
+
