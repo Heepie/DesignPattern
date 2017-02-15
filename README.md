@@ -33,3 +33,6 @@ The decorator pattern (also known as Wrapper, an alternative naming shared with 
 ####1) What is Composite Pattern? (Keyword: Same way)
 The composite pattern is a partitioning design pattern. The composite pattern describes that a group of objects is to **be treated in the same way as a single instance of an object**. The intent of a composite is to "compose" objects into tree structures to represent **part-whole hierarchies**. Implementing the composite pattern lets clients treat individual objects and compositions uniformly
 
+### 6. Singleton Pattern
+####1) What is Singleton Pattern? (Keyword: restriction, only one)
+The singleton pattern is a software design pattern that **restricts the instantiation of a class to one object**. This is useful when exactly one object is needed to coordinate actions across the system. The concept is sometimes generalized to systems that operate more efficiently **when only one object exists**, or that restrict the instantiation to a certain number of objects. The term comes from the mathematical concept of a singleton.
