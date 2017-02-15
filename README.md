@@ -18,12 +18,18 @@
 The strategy pattern (also known as the policy pattern) is a behavioural software design pattern that enables **an algorithm's behavior to be selected at runtime**.
 
 ### 2. Adapter Pattern
-####1) What is Adapter Pattern? (Keyword: existing class, reuse)
+####1) What is Adapter Pattern? (Keyword: Existing class, Reuse)
 The adapter pattern is a software design pattern (also known as Wrapper, an alternative naming shared with the Decorator pattern) that allows the interface of **an existing class to be used as another interface**. It is often used to make existing classes work with others **without modifying their source code**.
 
 ### 3. Template Pattern
-####1) What is Template Pattern? (Keyword: skeleton, redefine certain steps)
+####1) What is Template Pattern? (Keyword: Skeleton, Redefine certain steps)
 The template method pattern is a behavioral design pattern that defines the program skeleton of an algorithm in an operation, deferring some steps to subclasses. It lets one **redefine certain steps of an algorithm without changing the algorithm's structure**.
 
+### 4. Decorator Pattern
+####1) What is Decorator Pattern? (Keyword: Addition)
+The decorator pattern (also known as Wrapper, an alternative naming shared with the Adapter pattern) is a design pattern that allows behavior **to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class**. The decorator pattern is often useful for adhering to the Single Responsibility Principle, as it allows functionality to be divided between classes with unique areas of concern
 
+### 5. Composite Pattern
+####1) What is Composite Pattern? (Keyword: Same way)
+The composite pattern is a partitioning design pattern. The composite pattern describes that a group of objects is to **be treated in the same way as a single instance of an object**. The intent of a composite is to "compose" objects into tree structures to represent **part-whole hierarchies**. Implementing the composite pattern lets clients treat individual objects and compositions uniformly
 
