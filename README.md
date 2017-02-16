@@ -10,6 +10,12 @@
 >> Reference - http://searchsoftwarequality.techtarget.com/definition/best-practice
 
 
+## Design Pattern Principle
+>1. Divide the part that needs to change and the part that needs not to change.
+>2. Do programming focus on supertype rather than implement.
+>3. Use composition than extend.
+
+
 ***
 
 
