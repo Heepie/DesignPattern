@@ -42,3 +42,7 @@ The composite pattern is a partitioning design pattern. The composite pattern de
 ### 6. Singleton Pattern
 ####1) What is Singleton Pattern? (Keyword: restriction, only one)
 The singleton pattern is a software design pattern that **restricts the instantiation of a class to one object**. This is useful when exactly one object is needed to coordinate actions across the system. The concept is sometimes generalized to systems that operate more efficiently **when only one object exists**, or that restrict the instantiation to a certain number of objects. The term comes from the mathematical concept of a singleton.
+
+### 7. Facade Pattern
+####1) What is Fasade Pattern? (Keyword: simple interface)
+The Facade design pattern is often used when a system is very complex or difficult to understand because the system has a large number of interdependent classes or its source code is unavailable. This pattern hides the complexities of the larger system and provides **a simpler interface to the client**.
