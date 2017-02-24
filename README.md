@@ -58,3 +58,18 @@ The singleton pattern is a software design pattern that **restricts the instanti
 ### 7. Facade Pattern
 ####1) What is Fasade Pattern? (Keyword: simple interface)
 The Facade design pattern is often used when a system is very complex or difficult to understand because the system has a large number of interdependent classes or its source code is unavailable. This pattern hides the complexities of the larger system and provides **a simpler interface to the client**.
+
+### 8. Observer Pattern
+####1) What is Observer Pattern? (Keyword: Event Handling)
+The observer pattern is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and **notifies them automatically of any state changes, usually by calling one of their methods**.
+It is mainly used to implement distributed event handling systems.
+The Observer pattern is also a key part in the familiar model–view–controller (MVC) architectural pattern.
+
+####2) Background
+
+  ![](./[Basic]ObserverPattern/before1.PNG)
+
+####3) Benefit
+
+  ![](./[Basic]ObserverPattern/after1.PNG) 
+
