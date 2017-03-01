@@ -27,6 +27,16 @@ The strategy pattern (also known as the policy pattern) is a behavioural softwar
 ####1) What is Adapter Pattern? (Keyword: Existing class, Reuse)
 The adapter pattern is a software design pattern (also known as Wrapper, an alternative naming shared with the Decorator pattern) that allows the interface of **an existing class to be used as another interface**. It is often used to make existing classes work with others **without modifying their source code**.
 
+####2) Background
+
+  ![](./[Basic]AdapterPattern/before.png)
+  
+  To satify the requirement, we have to modify requirement or already exist function code.
+
+####3) Benefit
+
+  ![](./[Basic]AdapterPattern/after.png)
+
 ### 3. Template Pattern
 ####1) What is Template Pattern? (Keyword: Skeleton, Redefine certain steps)
 The template method pattern is a behavioral design pattern that defines the program skeleton of an algorithm in an operation, deferring some steps to subclasses. It lets one **redefine certain steps of an algorithm without changing the algorithm's structure**.
