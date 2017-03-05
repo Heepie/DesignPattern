@@ -41,6 +41,16 @@ The adapter pattern is a software design pattern (also known as Wrapper, an alte
 ####1) What is Template Pattern? (Keyword: Skeleton, Redefine certain steps)
 The template method pattern is a behavioral design pattern that defines the program skeleton of an algorithm in an operation, deferring some steps to subclasses. It lets one **redefine certain steps of an algorithm without changing the algorithm's structure**.
 
+####2) Background
+
+  ![](./[Basic]TempleteMethodPattern/before.png)
+
+####3) Benefit
+
+  ![](./[Basic]TempleteMethodPattern/after.png)
+
+
+
 ### 4. Decorator Pattern
 ####1) What is Decorator Pattern? (Keyword: Addition)
 The decorator pattern (also known as Wrapper, an alternative naming shared with the Adapter pattern) is a design pattern that allows behavior **to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class**. The decorator pattern is often useful for adhering to the Single Responsibility Principle, as it allows functionality to be divided between classes with unique areas of concern
