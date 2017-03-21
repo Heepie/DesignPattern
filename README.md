@@ -20,76 +20,76 @@
 
 
 ### 1. Strategy Pattern
-####1) What is Strategy Pattern? (Keyword: Selection)
+#### 1) What is Strategy Pattern? (Keyword: Selection)
 The strategy pattern (also known as the policy pattern) is a behavioural software design pattern that enables **an algorithm's behavior to be selected at runtime**.
 
 ### 2. Adapter Pattern
-####1) What is Adapter Pattern? (Keyword: Existing class, Reuse)
+#### 1) What is Adapter Pattern? (Keyword: Existing class, Reuse)
 The adapter pattern is a software design pattern (also known as Wrapper, an alternative naming shared with the Decorator pattern) that allows the interface of **an existing class to be used as another interface**. It is often used to make existing classes work with others **without modifying their source code**.
 
-####2) Background
+#### 2) Background
 
   ![](./[Basic]AdapterPattern/before.png)
   
   To satify the requirement, we have to modify requirement or already exist function code.
 
-####3) Benefit
+#### 3) Benefit
 
   ![](./[Basic]AdapterPattern/after.png)
 
 ### 3. Template Pattern
-####1) What is Template Pattern? (Keyword: Skeleton, Redefine certain steps)
+#### 1) What is Template Pattern? (Keyword: Skeleton, Redefine certain steps)
 The template method pattern is a behavioral design pattern that defines the program skeleton of an algorithm in an operation, deferring some steps to subclasses. It lets one **redefine certain steps of an algorithm without changing the algorithm's structure**.
 
-####2) Background
+#### 2) Background
 
   ![](./[Basic]TempleteMethodPattern/before.png)
 
-####3) Benefit
+#### 3) Benefit
 
   ![](./[Basic]TempleteMethodPattern/after.png)
 
 
 
 ### 4. Decorator Pattern
-####1) What is Decorator Pattern? (Keyword: Addition)
+#### 1) What is Decorator Pattern? (Keyword: Addition)
 The decorator pattern (also known as Wrapper, an alternative naming shared with the Adapter pattern) is a design pattern that allows behavior **to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class**. The decorator pattern is often useful for adhering to the Single Responsibility Principle, as it allows functionality to be divided between classes with unique areas of concern
 
 ### 5. Composite Pattern
-####1) What is Composite Pattern? (Keyword: Same way)
+#### 1) What is Composite Pattern? (Keyword: Same way)
 The composite pattern is a partitioning design pattern. The composite pattern describes that a group of objects is to **be treated in the same way as a single instance of an object**. The intent of a composite is to "compose" objects into tree structures to represent **part-whole hierarchies**. Implementing the composite pattern lets clients treat individual objects and compositions uniformly
 
 ### 6. Singleton Pattern
-####1) What is Singleton Pattern? (Keyword: restriction, only one)
+#### 1) What is Singleton Pattern? (Keyword: restriction, only one)
 The singleton pattern is a software design pattern that **restricts the instantiation of a class to one object**. This is useful when exactly one object is needed to coordinate actions across the system. The concept is sometimes generalized to systems that operate more efficiently **when only one object exists**, or that restrict the instantiation to a certain number of objects. The term comes from the mathematical concept of a singleton.
 
-####2) Background
+#### 2) Background
 
   ![](./[Basic]SingleTonPattern/before3.png)    ![](./[Basic]SingleTonPattern/before4.png) 
 
-####3) Benefit
+#### 3) Benefit
 
   ![](./[Basic]SingleTonPattern/after3.png)    ![](./[Basic]SingleTonPattern/after4.png) 
 
-####4) Example
+#### 4) Example
 [Singleton Pattern 1](./[Basic]SingleTonPattern)
 [Singleton Pattern 2](./[Pro]SingleTonPattern)
 
 ### 7. Facade Pattern
-####1) What is Fasade Pattern? (Keyword: simple interface)
+#### 1) What is Fasade Pattern? (Keyword: simple interface)
 The Facade design pattern is often used when a system is very complex or difficult to understand because the system has a large number of interdependent classes or its source code is unavailable. This pattern hides the complexities of the larger system and provides **a simpler interface to the client**.
 
 ### 8. Observer Pattern
-####1) What is Observer Pattern? (Keyword: Event Handling)
+#### 1) What is Observer Pattern? (Keyword: Event Handling)
 The observer pattern is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and **notifies them automatically of any state changes, usually by calling one of their methods**.
 It is mainly used to implement distributed event handling systems.
 The Observer pattern is also a key part in the familiar model–view–controller (MVC) architectural pattern.
 
-####2) Background
+#### 2) Background
 
   ![](./[Basic]ObserverPattern/before1.PNG)
 
-####3) Benefit
+#### 3) Benefit
 
   ![](./[Basic]ObserverPattern/after1.PNG) 
 
